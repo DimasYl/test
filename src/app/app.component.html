@@ -1,0 +1,5 @@
+<button (click)="increment()">+</button>
+<button (click)="decrement()" [disabled]="cannotDecrease">-</button>
+<button (click)="reset()" [disabled]="cannotDecrease">0</button>
+
+<p>counter - {{counter}}</p>
